@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Pendaftaran Produk</title>
+</head>
+
+<body>
+    <h1>Buat Produk</h1>
+    <h2>Detail Produk</h2>
+
+    <form>
+        <label for="Namaproduk">Nama Produk :</label> <br />
+        <input type="text" id="Namaproduk" name="namaProduk" required />
+    </form>
+    <br />
+    <form>
+        <label for="Kategoriproduk">Kategori Produk :</label> <br />
+        <select name="Kategoriproduk" id="Kategoriproduk">
+            <option value="produkA">Produk A</option>
+            <option value="produkB">Produk B</option>
+        </select>
+    </form>
+    <br />
+    <form>
+        <label for="Kondisiproduk">Kondisi Produk :</label> <br />
+        <input type="radio" id="barangBaru" name="Kondisiproduk" value="barangBaru" required />
+        <label for="barangBaru">Barang Baru</label><br />
+        <input type="radio" id="barangBekas" name="Kondisiproduk" value="barangBekas" required />
+        <label for="barangBekas">Barang Bekas</label><br />
+        <input type="radio" id="Refurbished" name="Kondisiproduk" value="Refurbished" required />
+        <label for="Refurbished">Refurbished</label>
+    </form>
+    <br />
+    <form>
+        <label for="chooseFile">Gambar Produk </label>
+        <br />
+        <input type="file" name="chooseFile" id="chooseFile" required />
+    </form>
+    <br />
+    <form action="">
+        <label for="deskripsiTambahan">Deskripsi Tambahan</label> <br />
+        <textarea name="deskripsiTambahan" id="deskripsiTambahan" cols="30" rows="10"></textarea>
+    </form>
+    <br />
+    <form>
+        <label for="Hargaproduk">Harga Produk :</label><br />
+        <input type="number" name="Hargaproduk" id="Hargaproduk" placeholder="Rp. 10.000" required />
+    </form>
+    <br />
+    <form>
+        <input type="Submit" value="Submit" required onclick="alert('Selamat Produk Anda Sudah Dibuat')" />
+    </form>
+</body>
+
+</html>
