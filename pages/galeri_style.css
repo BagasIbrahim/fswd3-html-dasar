@@ -1,0 +1,38 @@
+body{
+  background-color: bisque;
+  text-align: center;
+}
+
+p{
+  text-align: left;
+}
+.card_1 {
+  width: 20%;
+  border-radius: 10px;
+  border: solid #6712b7;
+  border-width: 10%;
+  display: inline-block;
+  margin-right: 7px;
+  background-color: rgb(115, 208, 157);
+}
+
+.card_2 {
+  width: 20%;
+  margin-top: 15px;
+  border-radius: 10px;
+  border: solid #870d0d;
+  border-width: 10%;
+  display: inline-block;
+  margin-right: 7px;
+  background-color: #ea840f;
+}
+
+img {
+  border-radius: 10px 10px 0 0;
+  max-width: 100%; 
+  height: auto;
+}
+
+.container_1{
+  padding: 2px 10px;
+}
